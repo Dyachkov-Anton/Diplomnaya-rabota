@@ -7,24 +7,30 @@
     <title>My site</title><!-- Задаем заголовок документа 
     (название нашего сайта) -->
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
     <script src="index.js"></script>
 </head>
 <body><!-- Основная часть документа -->
     <div class="site">
-        <header>
-            <a href="#h21">О компании</a><!-- Это якорь -->
-            <a href="#h22">Проекты</a><!-- Это якорь -->
-            <a href="#h23">Уход за садом</a><!-- Это якорь -->
-            <a href="#h24">Ландшафт</a><!-- Это якорь -->
-            <a href="#h25">Отзывы</a><!-- Это якорь -->
-            <a href="projects.html">Готовые проекты</a> <!-- Это относительная ссылка -->
+        <header class="header center">
+            <a class="header_a" href="#h21">О компании</a><!-- Это якорь -->
+            <a class="header_a" href="#h22">Проекты</a><!-- Это якорь -->
+            <a class="header_a" href="#h23">Уход за садом</a><!-- Это якорь -->
+            <a class="header_a" href="#h24">Ландшафт</a><!-- Это якорь -->
+            <a class="header_a" href="#h25">Отзывы</a><!-- Это якорь -->
+            <a class="header_a" href="projects.html">Готовые проекты</a> <!-- Это относительная ссылка -->
+            <div class="header_bottom">
+                
+            </div>
         </header>
-        <div class="content">
+        <div class="content center">
             <h1>Благоустройство и озеленение участков</h1>
-            <img class="content_img" src="img/Главная картинка.jpg" alt="Главная картинка">
+            <img class="content_img" src="img/Главная картинка.jpg" alt="">
             <div class="info">
             <h2 id="h21">О КОМПАНИИ</h2>
-            <p>Relief Image - компания по уходу за садом и ландшафтом. Более 10 лет 
+            <p class="content_info">Relief Image - компания по уходу за садом и ландшафтом. Более 10 лет 
             мы занимаемся благоустройством загородных участков, также имеем порядка 60 готовых работ в Ленинградской области и Санкт-Петербурге.
             К нам обращаются и доверяют уже более 20 постоянных клиентов за помощью по благоустройству и уходу участков. Наша компания отличается КАЧЕСТВОМ выполненных работ, ГАРАНТИЕЙ на растения, ЛУЧШИМИ питомниками для вашего участка и разработкой проекта ПОД КЛЮЧ. Обратившись к нашим специалистам, вы всегда будете чувствовать, как мы с большим вниманием относимся к вашим предпочтениям. Одной из ключевых задач нашей компании является то, что бы клиент всегда 
             оставался доволен и наслаждался выполненной работой. Если вас интерисовали именно эти критерии при подборе спициалистов, то вы попали в нужные руки! 
@@ -40,6 +46,7 @@
             </div>
             <div class="garden">
             <h2 id="h23">УХОД ЗА САДОМ</h2>
+            <img class="garden_img" src="img/20190730_090416 1.jpg" alt="">
             <p>Каждый участок требует постоянный профессиональный уход, чтобы 
                 поддерживать ту красоту, которую планировал ландшафтный 
                 дизайнер. Это подразумевает большой комплекс работ, 
@@ -216,7 +223,7 @@
             </div>
             </div>
         </div>
-        <footer style="background-image:url(img/НИЖНЯЯ\ конт\ информ.jpg) ;">
+        <footer class='footer center' style="background-image:url(img/НИЖНЯЯ\ конт\ информ.jpg) ;">
             <div class="footer_up">
                 <h2 class="h26">Контакты</h2>
                 <img class="footer_img" src="img/1.svg" alt="">                
