@@ -5,12 +5,7 @@
 .site {
     font-family: Roboto;
 }
-th {
-    border: 3px solid #000000;
-}
-td {
-    border: 3px solid #000000;
-}
+
 .center {
     padding-left: calc(50% - 530px);
     padding-right: calc(50% - 530px);
@@ -19,31 +14,206 @@ header {
     border: 0px solid #000;
     background: rgba(37, 73, 31, 0.31);
     padding-top: 15px;
-    padding-bottom: 15px;  
+    padding-bottom: 15px;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    
 }
 
 .header_a {
     text-decoration: none;
-    color: #FFFFFF;    
-    font-family: Roboto;
+    color: #000000;    
     font-size: 14px;
     font-style: normal;
     font-weight: 300;
     line-height: normal;
     text-transform: capitalize;
     
-}
+}   
 
+.content_top{
+    position: relative;
+    display: inline-block;
+}
+.content_img{
+    width: 100%;
+}
+h1{
+    color: #FFF;
+    font-feature-settings: 'dnom' on, 'numr' on;
+    text-shadow: 0px 7px 4px rgba(0, 0, 0, 0.40);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 115.7%; /* 41.652px */
+    font-variant: small-caps;
+    letter-spacing: 1.08px;
+    position: absolute;
+    padding-top: 265px;
+}
+.content_img-bottom{
+    padding-top: 33px;
+    padding-bottom: 33px;
+    display: flex;
+    justify-content: center;
+}
+.info{
+    background-color: rgba(87, 82, 73, 0.98);
+}
+#h21{
+    color: #FFDF9E;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 20.16px;
+    padding-bottom: 15.23px;
+    padding-left: 33px;
+}
 .content_info {
     color: #FFDF9E;
-    font-family: Roboto;
     font-size: 14px;
     font-style: normal;
     font-weight: 300;
     line-height: 20px;
     letter-spacing: 1.4px;
+    text-align: justify;
+    padding: 0px 33px 23px 33px;
 }
 
+.garden_img{
+    width: 100%;
+    padding-top: 7.06px;
+}
+.garden_info {
+    color: #FFDF9E;
+    text-align: justify;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 1.4px;
+    border-radius: 5px;
+    background: rgba(57, 54, 47, 0.80);
+    padding-top: 22px;
+    padding-bottom: 21px;
+    display: flex;
+    justify-content: center;
+    padding-left: 26px;
+    padding-right: 19px;
+}
 
+.project_img{
+    padding-top: 7.06px;
+}
+.li_small{
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 178.571% */
+    letter-spacing: 0.7px;
+    fill: #FF7E35;
+    list-style-type: none;
+    padding-left: 20px;
+}
+.li_small:before{
+    content: url(img/Ellipse\ 7.svg);
+    width: 3.937px;
+    height: 3.851px;
+    flex-shrink: 0;
+    fill: #FF7E35;
+    padding-right: 10.06px;
+}
+.p_big{
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+.landscape_info_big{
+       background: #5A554D; 
+}
+.landscape_info {
+    color: #FFDF9E;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px; 
+    letter-spacing: 0.7px;
+    border-radius: 5px;
+    padding: 19px 19px 30px 26px;
+}
+.landscape_part{
+        padding-top: 45px;
+}
+.landscape_page{
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #000;
+}
 
+.review_people,
+.review_word {
+   color: #34642C;
+    text-align: justify;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
 
+#h22,
+#h23,
+#h24,
+#h25{
+    color: #34642C;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+
+#h24{
+    padding-bottom: 41px;
+}
+.reviews{
+    padding-bottom: 79px;
+}
+.review_img-up{
+    padding-top: 78px;
+}
+#h25{
+    padding-bottom: 59px;
+}
+.review_img{
+    padding-top: 27px;
+}
+.review_people{
+    padding-bottom: 26px;
+}
+.h26{
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 60px;
+}
+.footer_medium{
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 33px;
+    padding-bottom: 49px;
+}
